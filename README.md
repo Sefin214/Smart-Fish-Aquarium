@@ -54,22 +54,29 @@ NodeMCU is an open-source firmware designed for the ESP8266 and ESP32 WiFi syste
 3. Home Security and Automation: With NodeMCU, you can create DIY security systems, monitor doors/windows, control lights, and manage appliances remotely.
 4. Wireless Control Systems: NodeMCU allows you to control devices wirelessly. For example, you can build a smartphone-controlled robot or a garage door opener.
 5. IP Cameras: NodeMCU can interface with cameras and stream video over Wi-Fi. You can set up your own IP camera system for surveillance.
-            
-![Amazon Feedbacks screenshots](images/nodemcu.png) 
+</p>     
 
+![Amazon Feedbacks screenshots](images/nodemcu.png) 
+<p align="justify">
 The microcontroller works on a power supply of 5V. It has 13 GPIO pins as shown in Fig. 5. A GPIO is a general purpose input/output pin, through which we can set values of output pins and we can even read values of input pins. The GPIO pins can be digitally programmed so that they can be turned ON or OFF. The output of any GPIO pin is 3.3v and can be used to control output components like an LED or a motor. These ON/OFF conditions can also be interpreted as a Boolean True/False, 1/0 or HIGH/LOW. It has two serial communication ports. Three 3.3V power out pins. The controller executes programs with a clock speed of 80MHz. Then there are the ground pins. There are four ground pins and all of these are connected to each other; you can use any of these ground pins for your projects. These are the common types of pins on a NodeMCU board. 
-            
+</p>       
+
 ![Amazon Feedbacks screenshots](images/nodepin.png) 
-</p>
+
 <p align="justify">
             
 **6.2  4 Channel relay switch**
 A 4-channel relay module is a versatile electronic device that allows you to control multiple electrical circuits using a microcontroller or other digital input signals. It is an active low switch i.e it turns ON if value 0 is passed and turns OFF when value 1 is passed. Toggling of switches is done by passing a 5V signal, a 3.3V signal can also be passed to switch relays
-![Amazon Feedbacks screenshots](images/relay.png) 
-The module has 4 screw terminal blocks for the motor four plugs, The positive from main power supply (240V) is commonly given to common contact screws, this makes each relay ready with 240V supply. Now the components are connected to normally open pins, such that when an activation pulse is given to the corresponding relay through the input pin as shown in Fig. 7., the switch falls and current gets running through the components (filter,light,aeration…etc). This is how the connection is made in the relay module. In the 4 channel relay switch there are 4 pins for inputs namely, IN0. IN1, IN2, IN3. These are the four inputs for four relays.
-            
-![Amazon Feedbacks screenshots](images/relaypin.png) 
+</p>
 
+![Amazon Feedbacks screenshots](images/relay.png) 
+
+<p align="justify">
+The module has 4 screw terminal blocks for the motor four plugs, The positive from main power supply (240V) is commonly given to common contact screws, this makes each relay ready with 240V supply. Now the components are connected to normally open pins, such that when an activation pulse is given to the corresponding relay through the input pin as shown in Fig. 7., the switch falls and current gets running through the components (filter,light,aeration…etc). This is how the connection is made in the relay module. In the 4 channel relay switch there are 4 pins for inputs namely, IN0. IN1, IN2, IN3. These are the four inputs for four relays.
+</p>
+
+![Amazon Feedbacks screenshots](images/relaypin.png) 
+<p align="justify">
 The 5V relay module pinout consists of connections on the input side, where it receives the trigger signal, and the output side, where it controls the load. Vcc: The power supply connection, usually 5V. GND: The ground connection. IN: The input signal connection, which receives the trigger signal. NC (Normally Closed) and NO (Normally Open) connections: These are the output connections that control the load.
 </p>
 <p align="justify">
@@ -80,9 +87,10 @@ Regulated power supplies
 - Limiting circuits
 - Electronic devices, such as LED, monitors, electric locks, medical instruments, and switches
 - Arduino and other microcontroller projects
-            
-![Amazon Feedbacks screenshots](images/7805.png)
+</p>
 
+![Amazon Feedbacks screenshots](images/7805.png)
+<p align="justify">
 The 7805 voltage regulator has three pins as shown in Fig. 8. Input pin (VIN): accepts the input DC voltage. Ground pin (GND): connects to the ground reference. Output pin (VOUT): provides the regulated 5V output voltage. When using a 7805 voltage regulator, we must ensure that the input voltage does not exceed the maximum rating (25V) and that the output current does not exceed the maximum rating (1.5A). If these requirements are not followed, it may result in overheating, malfunctioning, or even damage to the IC.
 </p>
 <p align="justify">
@@ -90,9 +98,10 @@ The 7805 voltage regulator has three pins as shown in Fig. 8. Input pin (VIN): a
 **6.4   Servo motor**
 A servo motor is an electric motor that provides precise control of angular or linear    position, speed, and torque using a feedback loop system. It is a type of motor that allows for precise control of movement, making it widely used in various applications such as robotics, automation, and precision machinery.
 Main components of a Servo Motor: A motor, a suitable motor that provides the necessary torque and speed for the application.A Sensor, sensor that provides feedback on the motor’s position, speed, and acceleration.A Controller, a controller that regulates the motor’s movement according to a desired setpoint, using advanced control systems like PID and fuzzy logic.
-             
-![Amazon Feedbacks screenshots](images/servo.png)
+</p> 
 
+![Amazon Feedbacks screenshots](images/servo.png)
+<p align="justify">
 Working of Servo Motor : A control signal is sent to the servo motor, specifying the desired position, speed, and acceleration. The motor moves to the desired position, speed, and acceleration based on the control signal. The sensor provides a feedback signal to the controller, indicating the motor’s actual position, speed, and acceleration. The controller adjusts the motor’s movement based on the feedback signal, ensuring that the motor reaches the desired position, speed, and acceleration.
 Some applications of Servo Motors : Servo motors are widely used in robotics to provide precise control of movement and positioning. Servo motors are used in industrial automation to control the movement of parts and mechanisms. Servo motors are used in precision machinery, such as CNC machines and 3D printers, to provide precise control of movement and positioning.
 </p>
@@ -102,13 +111,14 @@ Some applications of Servo Motors : Servo motors are widely used in robotics to 
 The DS18B20 is a digital temperature sensor that uses a 1-Wire interface to communicate with a central microprocessor. It is a waterproof and stainless steel temperature probe that can operate in extreme conditions, making it suitable for various applications such as liquid, freezer, fridge, and cold storage. It is waterproof and stainless steel construction, 1-Wire digital temperature sensor, operating temperature range: -55°C to 125°C, high-quality stainless steel probe, IP68 rating for water resistance, unique silicon serial number for verification and multiple sensor connection.
 The DS18B20 temperature sensor can be used with various microcontrollers, including Arduino, NodeMCU to measure temperature. It is a popular choice for projects that require accurate temperature monitoring, such as home automation, industrial control systems, and scientific research.
 Some advantages of this sensor are :Simple installation and connection using a single wire, high accuracy and reliability, waterproof and durable construction, suitable for a wide range of temperatures and applications. It has 3 pins as shown in Fig. 10. A vdd pin to give power to the sensor, a ground pin, a data pin which sends data about the temperature. Using specific functions in Arduino IDE it is possible to fetch temperature in degrees as well as in fahrenheit.
-            
-![Amazon Feedbacks screenshots](images/dsb.png)
+</p>       
 
+![Amazon Feedbacks screenshots](images/dsb.png)
+<p align="justify">
 The DS18B20 temperature sensor is a reliable and accurate digital temperature sensor that is suitable for various applications. Its waterproof and stainless steel construction make it a great choice for projects that require temperature monitoring in harsh environments.
 </p>
-<p align="justify">
-            
+
+<p align="justify">            
 **6.6   Power supply and adapter**
 Power supply is taken mainly from wall sockets which give power of 220V-240V. A 9 volt adapter is used, and the 9V is converted to 5V output using a 7805 voltage regulator which powers the microcontroller and servo motor. The main power of 240V is used for working of other connected components.
 </p>
