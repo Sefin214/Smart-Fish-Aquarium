@@ -24,6 +24,6 @@
 3.5 Online product survey
 The feedback from existing products on www.amazon.in reveals a negative outlook towards these products. By meticulously analyzing these customer feedbacks, we have identified key areas for improvement and are developing our project to surpass the current offerings in the market. This approach not only addresses the immediate needs of our users but also sets a benchmark for innovation and quality in the field.The reviews from customers are shown in Fig. 1 and Fig. 2. 
 </p>>
- ![Screenshot 2024-08-23 194134](https://github.com/user-attachments/assets/66084f2f-7082-41d2-8c0b-df1d9346e966) 
+![Alt text](images/feedback.png)
 
 
