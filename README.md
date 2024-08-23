@@ -37,3 +37,9 @@ The feedback from existing products on www.amazon.in reveals a negative outl
 | ------------- | ------------- |
 |    NodeMCU    |       1       |
 | 4 Channel Relay switch  |     1   |
+| Voltage regulator 7805  |     1   |
+| Temperature sensor DS 18b20  |     1   |
+| sockets  |     3   |
+| 9V adapter  |     1   |
+| Servo Motor  |     1   |
+| Jumper Wires  |        |
