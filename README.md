@@ -118,7 +118,8 @@ Some advantages of this sensor are :Simple installation and connection using a s
 The DS18B20 temperature sensor is a reliable and accurate digital temperature sensor that is suitable for various applications. Its waterproof and stainless steel construction make it a great choice for projects that require temperature monitoring in harsh environments.
 </p>
 
-<p align="justify">            
+<p align="justify"> 
+            
 **6.6   Power supply and adapter**
 Power supply is taken mainly from wall sockets which give power of 220V-240V. A 9 volt adapter is used, and the 9V is converted to 5V output using a 7805 voltage regulator which powers the microcontroller and servo motor. The main power of 240V is used for working of other connected components.
 </p>
@@ -132,6 +133,7 @@ Plug holders to connect aquarium components with the controlling device. Type of
 **6.8   Jumper Wire**
 A jump wire is an electrical wire, or group of them in a cable, with a connector or pin at each end, which is normally used to interconnect the components of a breadboard or other prototype or test circuit, internally or with other equipment or components, without soldering.
 </p>
+
 # 7. FUNCTIONAL DIAGRAM
 
 ![Amazon Feedbacks screenshots](images/circuit.png)
@@ -144,20 +146,24 @@ A jump wire is an electrical wire, or group of them in a cable, with a connector
 ![Amazon Feedbacks screenshots](images/arduino.png)
 </p>
 <p align="justify">
+            
 **8.2  LANGUAGE USED - Arduino programming language**
              The language used in the Arduino IDE is essentially a variant of C/C++. It is often referred to as the Arduino Programming Language or simply Arduino Language. This language is based on the Wiring development platform, which itself was inspired by Processing. The Arduino Programming Language is fundamentally a framework built on top of C++. While it might not strictly adhere to the traditional definition of a programming language, it serves as a simplified and specialized version of C/C++ tailored for embedded systems programming. Programs written in the Arduino Programming Language are organized into sketches, which are typically saved with the .ino file extension.
 </p>
 <p align="justify">
+            
 # 9.  RESULT
 Designed and implemented Automation of Fish aquarium. Successfully implemented the concept of feeding and cleaning unit from the instruction from mobile application. Successfully monitored water temperature, displayed the temperature in the mobile app. Controlled Filter and light from the mobile app. Automatically fed the fish with an automatic fish feeder unit. Tested whether the system is working from kilometers away.  
 </p>
 
 ![Amazon Feedbacks screenshots](images/mobile.png)
 <p align="justify">
+            
 # 10. CONCLUSION
 This project gives us an approach towards easy access to Fish aquarium components. This project is helpful when the user is away from the aquarium and needs to access the aquarium's filter, light, air pump etc. This project stands out from other projects in the unique functions like fish feeding unit and automatic cleaning function. Implementing these functions at a relatively lower price than the products currently available in the market makes the product more compatible for normal use. It also helps fish farmers to look after their fishes on their own without the help of any external labor costs. The system has multiple plug points which allows the user to connect any of their fish aquariums.
 </p>
 <p align="justify">
-# 11.   FUTURE SCOPE
+
+# 11. FUTURE SCOPE
 The integration of smart features such as smartphone connectivity and remote monitoring is becoming increasingly common. This allows aquarium owners to control and monitor their fish feeders remotely, ensuring their pets receive proper care even when they are away from home. Advanced feeders are being developed with precision feeding capabilities, ensuring that fish receive exactly the right amount of food at the right times. These functions can be controlled remotely with the implementation of this project. The popularity of aquarium hobbies and the increasing demand for aquaculture products are driving the need for efficient feeding solutions.In conclusion, the future of fish aquarium automation looks bright, with significant growth potential driven by technological advancements, expanding market opportunities, and the need for innovative solutions. Companies that can successfully navigate the challenges and capitalize on the opportunities presented will be well-positioned to lead in this dynamic market. The system can be implemented as a social enterprise system to help out the fish farmers to maintain their quality of fishes by adding a few sensors like dissolved Oxygen sensor, pH sensor, turbidity sensor, salinity sensor etc. Furthermore the system helps farmers to control farms on their own, which reduces their labor cost and grow their profit efficiently.
 </p>
