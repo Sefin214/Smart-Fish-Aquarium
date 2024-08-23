@@ -11,25 +11,7 @@
 <p align="justify"> 
 3.1 Literature Survey   
             Objective of the paper titled “ Aquarium Monitoring System Based on Internet of Things” defines the purpose of the system is to monitor and optimize the environment in an aquarium. It focuses on parameters such as temperature, light intensity, and water level. Components include temperature, light, ultrasonic, and infrared modules.It processes sensor data to control and optimize various outputs (e.g., lighting, water pumps) using data fusion calculations. An automatic feeder with a servo motor is integrated into the system. The feeder ensures timely and controlled feeding for the fish. Data Upload and Monitoring: Sensor data is uploaded to a back-end computer via the built-in Wi-Fi of the LinkIt 7697 module. The Cloud Sandbox platform provides real-time monitoring and enables remote network monitoring of the aquarium. In summary, this smart aquarium system combines technology, automation, and real-time monitoring to create a comfortable and safe environment for pet fish. The above proposed system is a similar system to our product.</p>
-
-<p align="justify"> 
-3.2 Aquarium shop
-             The review shared by the shopkeeper is that the customers who were buying the fishes were coming frequently to buy another pair, because before bought pairs were dead. Shopkeeper asked reviews about the fish and customers said that the fish were healthy but the conditions in which they lived did not help them to survive.He added another point that the existing systems were costly and people are not interested in buying those for high prices. Shopkeeper also acknowledged that the customers were not aware about the conditions for fishes to live and would carelessly drag them to death.</p>
-
-<p align="justify"> 
-3.3 Review from customer
-           The review shared by the customer was that he had a fish aquarium in his room but has removed it recently due to water spillage while cleaning the tank. The room went messy, each time they cleaned the aquarium. He also pointed out that a fully automated system would help to install an aquarium again, such that aquarium maintenance would be easier parallel with daily life.</p>
-
-<p align="justify"> 
-3.4 Review from fish farm owner
-              The common problem faced is when cleaning is not done frequently, fish excretions and food wastes get accumulated at the bottom of the tank. Due to this the PH level of the water changes and the water purity decreases such that it cant be used anymore to grow fishes. He suggested that if there is an automated system to feed and clean at the correct time it would sustain his fish more and could increase productivity, else the fish would eat the accumulated waste and die.</p>
-
-<p align="justify"> 
-3.5 Online product survey
-The feedback from existing products on www.amazon.in reveals a negative outlook towards these products. By meticulously analyzing these customer feedbacks, we have identified key areas for improvement and are developing our project to surpass the current offerings in the market. This approach not only addresses the immediate needs of our users but also sets a benchmark for innovation and quality in the field.The reviews from customers are shown in Fig. 1 and Fig. 2. 
-</p>
-          
-![Amazon Feedbacks screenshots](images/feedback.png) 
+            
 # 4. BLOCK DIAGRAM
 ![Amazon Feedbacks screenshots](images/blockdiagram.png)
 # 5. HARDWARE COMPONENT
@@ -48,13 +30,7 @@ The feedback from existing products on www.amazon.in reveals a negative outl
 <p align="justify">
             
 **6.1  NodeMCU esp8266**
-NodeMCU is an open-source firmware designed for the ESP8266 and ESP32 WiFi system-on-chip (SoC) modules from Espressif. It simplifies the process of developing Internet of Things (IoT) applications by providing an easy-to-use platform. NodeMCU allows developers to write code in the Lua scripting language, making it accessible even to those who are not familiar with C/C++. The firmware supports WiFi connectivity, GPIO control, and includes an on-module flash-based file system called SPIFFS. NodeMCU has a vibrant community, and it’s widely used for prototyping, home automation, sensor networks, and more.It has applications in various domains. Here are some common uses for NodeMCU:
-1. IoT Prototyping: NodeMCU is widely used for prototyping Internet of Things (IoT) devices. Its built-in Wi-Fi capabilities make it easy to connect to networks and cloud services.
-2. Low-Power Applications: Due to its low power consumption, NodeMCU is suitable for battery-operated projects. You can create energy-efficient sensors, smart home devices, and wearable gadgets.
-3. Home Security and Automation: With NodeMCU, you can create DIY security systems, monitor doors/windows, control lights, and manage appliances remotely.
-4. Wireless Control Systems: NodeMCU allows you to control devices wirelessly. For example, you can build a smartphone-controlled robot or a garage door opener.
-5. IP Cameras: NodeMCU can interface with cameras and stream video over Wi-Fi. You can set up your own IP camera system for surveillance.
-</p>     
+NodeMCU is an open-source firmware designed for the ESP8266 and ESP32 WiFi system-on-chip (SoC) modules from Espressif. It simplifies the process of developing Internet of Things (IoT) applications by providing an easy-to-use platform. NodeMCU allows developers to write code in the Lua scripting language, making it accessible even to those who are not familiar with C/C++. The firmware supports WiFi connectivity, GPIO control, and includes an on-module flash-based file system called SPIFFS. NodeMCU has a vibrant community, and it’s widely used for prototyping, home automation, sensor networks, and more.</p>   
 
 ![Amazon Feedbacks screenshots](images/nodemcu.png) 
 <p align="justify">
