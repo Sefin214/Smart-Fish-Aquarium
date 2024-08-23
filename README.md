@@ -30,6 +30,10 @@ The feedback from existing products on www.amazon.in reveals a negative outl
 </p>
           
 ![Amazon Feedbacks screenshots](images/feedback.png) 
-# BLOCK DIAGRAM
+# 4. BLOCK DIAGRAM
 ![Amazon Feedbacks screenshots](images/blockdiagram.png)
-
+# 5. HARDWARE COMPONENT
+|  COMPONENTS   |    QUANTITY   |
+| ------------- | ------------- |
+|    NodeMCU    |       1       |
+| 4 Channel Relay switch  |     1   |
